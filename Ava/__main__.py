@@ -47,7 +47,7 @@ buttons = [
         InlineKeyboardButton(text=" beni grubuna ekle ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="yardım & komutlar", callback_data="help_back"),
         InlineKeyboardButton(text="🥀 istatistikler🥀", callback_data="stats_callback"),
     ],
     [
