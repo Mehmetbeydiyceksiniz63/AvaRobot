@@ -306,7 +306,7 @@ async def mentioned_alert(client, message):
         return message.continue_propagation()
 
 
-@tbot.on(events.NewMessage(pattern="^/tagall ?(.*)"))
+@tbot.on(events.NewMessage(pattern="^/tagalama ?(.*)"))
 @tbot.on(events.NewMessage(pattern="^@all ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
